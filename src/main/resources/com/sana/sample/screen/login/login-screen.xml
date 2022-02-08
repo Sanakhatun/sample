@@ -1,6 +1,8 @@
 <window xmlns="http://jmix.io/schema/ui/window"
         caption="msg://caption">
 
+
+
     <actions>
         <action id="submit"
                 caption="msg://loginButton"
@@ -11,15 +13,17 @@
     <layout stylename="jmix-login-main-layout">
         <vbox id="loginWrapper" height="100%" width="100%">
             <vbox id="loginMainBox"
-                  align="MIDDLE_CENTER"
+                  align="MIDDLE_RIGHT"
                   margin="true"
                   spacing="true"
                   stylename="jmix-login-panel"
                   width="AUTO">
+
                 <label id="welcomeLabel"
                        align="MIDDLE_CENTER"
                        stylename="jmix-login-caption"
-                       value="msg://welcomeLabel"/>
+                       value="msg://welcomeLabel"
+                />
 
                 <vbox id="loginForm"
                       spacing="true"

@@ -1,7 +1,6 @@
 package com.sana.sample.entity;
 
 import io.jmix.core.entity.annotation.JmixGeneratedValue;
-import io.jmix.core.metamodel.annotation.InstanceName;
 import io.jmix.core.metamodel.annotation.JmixEntity;
 
 import javax.persistence.Column;
@@ -21,7 +20,6 @@ public class Project {
     @Id
     private UUID id;
 
-    @InstanceName
     @Column(name = "NAME", nullable = false)
     @NotNull
     private String name;
