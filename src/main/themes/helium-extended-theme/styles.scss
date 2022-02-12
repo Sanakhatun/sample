@@ -1,0 +1,16 @@
+@import "helium-extended-theme-defaults";
+@import "addons";
+@import "helium-extended-theme";
+
+.helium-extended-theme {
+  @include addons;
+  @include helium-extended-theme;
+
+  .name-field {
+        background-color: lightyellow;
+    }
+
+    /* .login-submit-button{
+        background-color:
+    } */
+}

@@ -1,0 +1,24 @@
+@import "../helium/helium";
+
+@mixin helium-extended-theme {
+  @include helium;
+
+     /* Basic */
+   --primary-color: #0016DC;
+   --primary-color_rgb: 0, 22, 220;
+
+     /* Common */
+   --primary-color-shade-1: #0013C2;
+   --primary-color-shade-2: #0011AD;
+   --primary-dim-color: #3347FF;
+
+   /* TextField */
+   --textfield-background-color: #E8FFFC;
+
+    /* Button */
+   --button-primary-color: #0016DC;
+   --button-success-color: #E8000D;
+   --button-success-hover-color: #D10022;
+
+
+}
